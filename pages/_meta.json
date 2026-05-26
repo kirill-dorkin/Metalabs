@@ -1,15 +1,11 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
-  }
+  "index": "Главная",
+  "program": "Программа курса",
+  "course": "Курс по месяцам",
+  "demo-lesson": "Демо-урок",
+  "student-materials": "Материалы ученика",
+  "teaching-method": "Методика преподавания",
+  "ai-tools": "AI-инструменты",
+  "resources": "Рекомендуемые материалы",
+  "exams": "Экзамены"
 }

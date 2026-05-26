@@ -1,23 +1,50 @@
-# Nextra Docs Template 
+# Metalabs Fullstack Platform
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Методическая платформа курса Fullstack-разработки для Metalabs.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+Проект сделан на Next.js, Nextra и MDX. Он работает статически, не использует backend, авторизацию и базу данных.
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+## Назначение
 
-## Quick Start
+- Программа курса на 8 месяцев.
+- Структура по месяцам и урокам.
+- Материалы для демо-урока и QR-страница для учеников.
+- Домашние задания, экзамены, методика преподавания и AI-инструменты.
+- Рекомендованные официальные материалы для самостоятельного изучения.
 
-Click the button to clone this repository and deploy it on Vercel:
+## Структура
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+- `pages/index.mdx` — главная страница курса.
+- `pages/program.mdx` — общая программа курса и итоговые артефакты.
+- `pages/course/` — детализация 8 месяцев обучения.
+- `pages/demo-lesson.mdx` — план первого демо-урока для новичков.
+- `pages/student-materials/` — QR-материалы ученика: код, практика, домашка и помощь.
+- `pages/teaching-method.mdx` — методика преподавания.
+- `pages/ai-tools.mdx` — правила использования Cursor и Claude.
+- `pages/resources.mdx` — официальные дополнительные материалы.
+- `pages/exams.mdx` — формат экзаменов и критерии оценки.
 
-## Local Development
+## Запуск
 
-First, run `pnpm i` to install the dependencies.
+```bash
+npm install
+npm run dev
+```
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+Локально сайт откроется на `http://localhost:3000`. Если порт занят, Next.js выберет следующий свободный порт.
 
-## License
+## Проверка перед деплоем
 
-This project is licensed under the MIT License.
+```bash
+npm run build
+```
+
+## Где менять QR-ссылку
+
+QR из презентации должен вести на страницу:
+
+```txt
+/student-materials
+```
+
+Кнопки и тексты QR-страницы находятся в `pages/student-materials/index.mdx`.
