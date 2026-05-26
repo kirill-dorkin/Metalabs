@@ -7,31 +7,25 @@
     "build": "next build",
     "start": "next start"
   },
-  "engines": {
-    "node": ">=20.9.0"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kirill-dorkin/Metalabs.git"
+    "url": "git+https://github.com/kirill-dorkin/html-css-platform.git"
   },
   "author": "Kirill Dorkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kirill-dorkin/Metalabs/issues"
+    "url": "https://github.com/kirill-dorkin/html-css-platform/issues"
   },
-  "homepage": "https://github.com/kirill-dorkin/Metalabs#readme",
+  "homepage": "https://github.com/kirill-dorkin/html-css-platform#readme",
   "dependencies": {
-    "next": "^16.2.6",
-    "nextra": "^4.6.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "next": "^13.0.6",
+    "nextra": "2.13.4",
+    "nextra-theme-docs": "2.13.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
-    "@types/react": "^19.2.15",
-    "typescript": "^5.9.3"
-  },
-  "overrides": {
-    "postcss": "^8.5.10"
+    "typescript": "^4.9.3"
   }
 }
