@@ -1,0 +1,7 @@
+export default {
+  index: 'Материалы ученика',
+  'lesson-1-code': 'Код урока',
+  'lesson-1-practice': 'Практика',
+  'lesson-1-homework': 'Домашнее задание',
+  help: 'Помощь'
+}

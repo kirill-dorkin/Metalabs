@@ -1,0 +1,11 @@
+export default {
+  index: 'Главная',
+  program: 'Программа курса',
+  course: 'Курс по месяцам',
+  'demo-lesson': 'Демо-урок',
+  'student-materials': 'Материалы ученика',
+  'teaching-method': 'Методика преподавания',
+  'ai-tools': 'AI-инструменты',
+  resources: 'Рекомендуемые материалы',
+  exams: 'Экзамены'
+}

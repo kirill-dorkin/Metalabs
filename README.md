@@ -14,15 +14,15 @@
 
 ## Структура
 
-- `pages/index.mdx` — главная страница курса.
-- `pages/program.mdx` — общая программа курса и итоговые артефакты.
-- `pages/course/` — детализация 8 месяцев обучения.
-- `pages/demo-lesson.mdx` — план первого демо-урока для новичков.
-- `pages/student-materials/` — QR-материалы ученика: код, практика, домашка и помощь.
-- `pages/teaching-method.mdx` — методика преподавания.
-- `pages/ai-tools.mdx` — правила использования Cursor и Claude.
-- `pages/resources.mdx` — официальные дополнительные материалы.
-- `pages/exams.mdx` — формат экзаменов и критерии оценки.
+- `content/index.mdx` — главная страница курса.
+- `content/program.mdx` — общая программа курса и итоговые артефакты.
+- `content/course/` — детализация 8 месяцев обучения.
+- `content/demo-lesson.mdx` — план первого демо-урока для новичков.
+- `content/student-materials/` — QR-материалы ученика: код, практика, домашка и помощь.
+- `content/teaching-method.mdx` — методика преподавания.
+- `content/ai-tools.mdx` — правила использования Cursor и Claude.
+- `content/resources.mdx` — официальные дополнительные материалы.
+- `content/exams.mdx` — формат экзаменов и критерии оценки.
 
 ## Запуск
 
@@ -47,4 +47,4 @@ QR из презентации должен вести на страницу:
 /student-materials
 ```
 
-Кнопки и тексты QR-страницы находятся в `pages/student-materials/index.mdx`.
+Кнопки и тексты QR-страницы находятся в `content/student-materials/index.mdx`.
